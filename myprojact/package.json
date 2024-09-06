@@ -1,0 +1,44 @@
+{
+  "name": "myprojact",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "โปรเจกต์ตัวอย่าง",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "sirichatpannoi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express-fileupload": "^1.5.1",
+    "node": "^22.8.0",
+    "openai": "^4.58.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "sharp": "^0.33.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
